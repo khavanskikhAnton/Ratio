@@ -137,8 +137,18 @@ li {
 /*slider*/
 
 
-.active {
+
+.icon-left {
     color:white;
+    border: 1px solid white;
+    background-color: white;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.active {
     border: 1px solid #f063b8;
     background-color: #f063b8;
     display: inline-block;
@@ -148,19 +158,23 @@ li {
 }
 
 .btn-social {
-    color:white;
-    border:2px solid #e9e9ee;
-    background-color: #e9e9ee;
-    display: inline-block;
+    display: flex;
+}
+.social-link {
+    color:green;
+    border:2px solid green;
+    background-color: green;
     width: 50px;
     height: 50px;
     border-radius: 50px;
+    margin-right: 50px;
+
 }
 
 /* footer  */
 
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 790px)  and (max-width: 3200px) {
 
     .container {
         margin-left: 15%;
@@ -256,9 +270,7 @@ li {
     .about-content::after {
         clear: both;
         content: "";
-    }
-
-   
+    }   
     
     .about-image {
         float: left;
@@ -274,7 +286,7 @@ li {
 
     .features {
         min-width: 1120px;
-
+        margin-bottom: 150px;
         margin-right: 15%;
     }
 
@@ -467,15 +479,137 @@ li {
         margin-top: 16px;
         margin-left: 34px;
     }
+
     
+
     
+    .testimonials {
+        color:white;
+        border:1px solid #9c69e2;
+        background-color: #9c69e2;
+        border-radius: 50px;
+        margin-left: 240px;
+        margin-bottom: 150px;
+        z-index: 1;
+        margin-left: -8px;
+        padding: 0;
+        position: relative;
+        left: 240px;
+        height: 709px;
+        width: 1118px;
+    }  
+   
+    
+    .testimonials-title {
+        margin-top: 110px;
+        margin-bottom: 88px;
+    }
+ 
+  
+    .cards {
+        z-index: 2;
+        position: relative;
+        display: flex;
+        height: 330px;
+    }
+  
+    .john-fang-content {
+        min-width: 645px;
+        height: 330px;
+        margin: 8px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .john-fang-img {
+        margin-left: 70px;
+        margin-top: 60px;
+        width: 90px;
+        height: 90px;
+        position: absolute;
 
+    }
+    .jeny-doe-content {
+        width: 645px;
+        height: 330px;
+        margin: 8px;
+    }
+    .william-content {
+        width: 645px;
+        height: 330px;
+        margin: 8px;
+    }
 
+    .john-fang-description {
+        color:#4b5d68;
+    }
+    .john-fang-title {
+        margin-left: 190px;
+        margin-top: 80px;        
+    }
+    .john-fang-job {
+        margin-left: 190px;
+    }
+    .john-fang-description {
+        margin-left: 190px;
+        width: 385px;
+        min-height: 130px;
+    }
+    .john-fang-description p {
+        line-height: 32.5px;
+    }
+    .icons {
+        margin-top: 60px;
+    }
+    .arr-left {
+        float: left;
+        margin-left: 760px;
+        margin-top: 0;
+    }
 
+    .arr-right {
+        float: left;
+    }
+   
+    .footer-logo {
+        margin-top: 162px;
+    }
 
+    address {
+        width: 335px;
+        height: 63px;
+    }
+    .social {
+        margin-left: 1147px;
+        float: right;
+    }
+
+    .social-title h5 {
+        margin: 0;
+    }
+    .social-link {
+        color:green;
+        border:2px solid green;
+        background-color: green;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        text-align:center;
+        justify-content: end;
+        align-items: center;   
+    }    
+
+    address {
+        margin-top: 60px;
+        position:static;
+    }
+
+    .copyright {
+        padding-top: 40px;
+    }
 }
 
-@media screen and (min-width: 320px) {
+@media (min-width: 320px)  and (max-width: 789px) {
 
 
     .logo {
