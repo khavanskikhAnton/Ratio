@@ -268,9 +268,20 @@ li {
         margin-top: 32px;
     }
 
+    .f-container {
+        margin-left: 240px;
+    }
+
     .features {
+        min-width: 1120px;
+
         margin-right: 15%;
-        margin-bottom: 150px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+
     }
 
     .features-title {
@@ -296,58 +307,170 @@ li {
 
 
     }
-
     
     .intro-btn {
         max-width: 170px;
         min-height: 60px;
         text-align: center;
         line-height: 60px;
-    }
+    }    
 
     .features-items {
-        margin-left: auto;
-        margin-right: auto;
-        display:flex;
-        flex-wrap: wrap;
-    }
+        width: 1120px;
+        
+    }    
 
     .search-data {
-        width: 508.5px;
+        width: 531px;
         height: 358px;
+        margin-bottom: 50px;
+    }    
+    .search-data-image {
+        z-index: -1;
+        position: absolute;
+        top: 1873px;
+    }   
+    .search-data-title {
+        width: 200px;
+        height: 50px;
+        padding-top: 49px;
+        margin-left: 262px;
+    }
+    .search-data-title h3 {
+        margin-top: 0;
+    }
+    .search-data-description {
+        max-width: 220px;
+        margin-left: 262px;
+    } 
+    .search-data-description p {
+        margin: 0;
+        line-height: 26.6px;
+    } 
+    .search-data-bottom {
+        margin-left: 262px;
+        min-height: 160px;
+        display:flex;
+    }
+    .arrow-right {
+        margin-top: 16px;
+        margin-left: 34px;
     }
 
     .hours-access {
-        width: 508.5px;
+        width: 531px;
         height: 358px;
-    }
-
-    .print {
-        width: 508.5px;
-        height: 358px;
-    }
-
-    .security-code {
-        width: 508.5px;
-        height: 358px;
-    }
-
-    .search-data-description {
-        max-width: 220px;
-        height: 160px;    
+        margin-bottom: 50px;
     }    
+    .hours-access-image {
+        z-index: -1;
+        position: absolute;
+        top: 1873px;
+    }   
+    .hours-access-title {
+        width: 200px;
+        height: 50px;
+        padding-top: 49px;
+        margin-left: 262px;
+    }
+    .hours-access-title h3 {
+        margin-top: 0;
+    }
     .hours-access-description {
-        width: 220px;
-        height: 160px;    
+        max-width: 220px;
+        margin-left: 262px;
+    } 
+    .hours-access-description p {
+        margin: 0;
+        line-height: 26.6px;
+    } 
+    .hours-access-bottom {
+        margin-left: 262px;
+        min-height: 160px;
+        display:flex;
+        
+    }
+    .arrow-right {
+        margin-top: 16px;
+        margin-left: 34px;
+    }
+    .print {
+        width: 531px;
+        height: 358px;
+        margin-bottom: 50px;
+    }    
+    .print-image {
+        z-index: -1;
+        position: absolute;
+        top: 2281px;
+    }   
+    .print-title {
+        width: 200px;
+        height: 50px;
+        padding-top: 49px;
+        margin-left: 262px;
+    }
+    .print-title h3 {
+        margin-top: 0;
     }
     .print-description {
-        width: 220px;
-        height: 160px;    
+        max-width: 220px;
+        margin-left: 262px;
+    } 
+    .print-description p {
+        margin: 0;
+        line-height: 26.6px;
+    } 
+    .print-bottom {
+        margin-left: 262px;
+        min-height: 160px;
+        display:flex;
+        align-items: center;
+    }
+    .arrow-right {
+        margin-top: 16px;
+        margin-left: 34px;
+    }
+    .security-code {
+        width: 531px;
+        height: 358px;
+        margin-bottom: 50px;
+    }    
+    .security-code-image {
+        z-index: -1;
+        position: absolute;
+        top: 2281px;
+    }   
+    .security-code-title {
+        width: 200px;
+        height: 50px;
+        padding-top: 49px;
+        margin-left: 262px;
+    }
+    .security-code-title h3 {
+        margin-top: 0;
     }
     .security-code-description {
-        width: 220px;
-        height: 160px;    
+        max-width: 220px;
+        margin-left: 262px;
+    } 
+    .security-code-description p {
+        margin: 0;
+        line-height: 26.6px;
+    } 
+    .security-code-bottom {
+        margin-left: 262px;
+        min-height: 160px;
+        display:flex;
     }
+    .arrow-right {
+        margin-top: 16px;
+        margin-left: 34px;
+    }
+    
+    
+
+
 
 
 }
