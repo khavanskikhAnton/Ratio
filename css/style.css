@@ -174,8 +174,9 @@ li {
 /* footer  */
 
 
-@media (min-width: 790px)  and (max-width: 3200px) {
+@media screen and (min-width: 790px)  and (max-width: 3200px) {
 
+    /*  header  */
     .container {
         margin-left: 15%;
         text-align :left;
@@ -201,6 +202,8 @@ li {
         display: inline;
         float: left;
     }
+
+    /*    intro    */
 
     .intro {
         min-height: 564px;
@@ -231,6 +234,8 @@ li {
         top: 336px;
         left: 603px;
     }  
+
+    /*    about    */
     
     .about {
         margin-bottom: 150px;
@@ -279,6 +284,8 @@ li {
         margin-left: 16px;
         margin-top: 32px;
     }
+
+    /*    features    */
 
     .f-container {
         margin-left: 240px;
@@ -480,8 +487,7 @@ li {
         margin-left: 34px;
     }
 
-    
-
+    /*    testimonials    */
     
     .testimonials {
         color:white;
@@ -569,6 +575,8 @@ li {
     .arr-right {
         float: left;
     }
+
+    /*    footer    */
    
     .footer-logo {
         margin-top: 162px;
@@ -587,9 +595,9 @@ li {
         margin: 0;
     }
     .social-link {
-        color:green;
-        border:2px solid green;
-        background-color: green;
+        color:#e9e9ee;
+        border:2px solid #e9e9ee;
+        background-color: #e9e9ee;
         display: inline-block;
         width: 50px;
         height: 50px;
@@ -609,13 +617,71 @@ li {
     }
 }
 
-@media (min-width: 320px)  and (max-width: 789px) {
+@media screen and (min-width: 320px)  and (max-width: 789px) {
 
+    body {
+        margin: 0 auto;
+        width: 250px;
+        text-align: center;
+    }
 
+    
     .logo {
         text-align: center;
         padding-bottom: 50px;
     }
+
+    li {
+        text-align: center;
+        padding-top: 50px;
+    }
+    .intro-image img {
+        width: 100%;
+    }
+    .about-image img {
+        width: 100%;
+    }
+    .search-data-image img{
+        width: 100%;
+    }
+    .hours-access-image img {
+        width: 100%;
+    }
+    .print-image {
+        width: 100%;
+    }
+    .security-code-image img {
+        width: 100%;
+    }
+    .print-image img {
+        width:100%;
+    }
+    .jeny-doe-img img {
+        width: 100%;
+        display: none;
+    }
+    .william-img img {
+        width: 100%;
+        display: none;
+    }
+    .intro-btn {
+        margin-bottom: 50px;
+    }
+    .active {
+        display: none;
+    }
+    .social-link {
+        color:#e9e9ee;
+        border:2px solid #e9e9ee;
+        background-color: #e9e9ee;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        text-align:center;
+        justify-content: end;
+        align-items: center;   
+    }    
 
    
     
