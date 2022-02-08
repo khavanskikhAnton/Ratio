@@ -10,8 +10,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #4b5d68; 
-    margin: 0;
-    /*display:flex;*/
+    margin: 0; 
 }
 
 /*fonts*/
@@ -95,88 +94,15 @@ h5 {
     font-weight: 400;
 }
 
-/* header  */
-
-.header {
-    padding-top: 65px;
-    padding-bottom: 145px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.logo {
-    margin-right: 8%;
-}
-
-li {
-    margin-right: 3%;
-    list-style:none;
-}
-
-.intro-btn {
-    border:1px solid #9c69e2;
-    background-color: #9c69e2;
-    border-radius: 60px;
-    margin-top: 50px;
-    text-align: center;
-}
-
-
-.about-content {
-    color:white;
-    border:1px solid #fde8f4;
-    background-color: #fde8f4;
-    border-radius: 50px;
-    margin: 0;
-}
-
-
-/*slider*/
-
-
-
-.icon-left {
-    color:white;
-    border: 1px solid white;
-    background-color: white;
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    margin-right: 10px;
-    border-radius: 5px;
-}
-.active {
-    border: 1px solid #f063b8;
-    background-color: #f063b8;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-}
-
-.btn-social {
-    display: flex;
-}
-.social-link {
-    color:green;
-    border:2px solid green;
-    background-color: green;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    margin-right: 50px;
-
-}
-
-/* footer  */
-
-
 @media screen and (min-width: 790px)  and (max-width: 3450px) {
 
     /*  header  */
+
+    .header {
+        padding-top: 65px;
+        padding-bottom: 145px;
+    }
+
     .container {
         margin-left: 240px;
         text-align :left;
@@ -188,9 +114,15 @@ li {
         line-height: 35px;
     }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     .logo{
         float: left;
         height: 35px;
+        margin-right: 8%;
     }
 
     ul {
@@ -202,6 +134,8 @@ li {
     li {
         display: inline;
         float: left;
+        margin-right: 3%;
+        list-style:none;
     }
 
     /*    intro    */
@@ -234,7 +168,15 @@ li {
         position: absolute;
         top: 336px;
         left: 603px;
-    }  
+    }
+
+    .intro-btn {
+        border:1px solid #9c69e2;
+        background-color: #9c69e2;
+        border-radius: 60px;
+        margin-top: 50px;
+        text-align: center;
+    }
 
     /*    about    */
     
@@ -244,7 +186,11 @@ li {
     .about-content {
         height: 560px;
         max-width: 1117px;
-        
+        color:white;
+        border:1px solid #fde8f4;
+        background-color: #fde8f4;
+        border-radius: 50px;
+        margin: 0;
     }
 
     .about-title {
@@ -296,7 +242,7 @@ li {
     .features {
         min-width: 1120px;
         margin-bottom: 150px;
-        margin-right: 15%;
+        margin-right: 240px;
     }
 
     .row {
@@ -326,8 +272,6 @@ li {
         width: 584px;
         margin-left: auto;
         margin-right: auto;
-
-
     }
     
     .intro-btn {
@@ -346,34 +290,41 @@ li {
         width: 531px;
         height: 358px;
         margin-bottom: 50px;
-    }    
+    }
+
     .search-data-image {
         z-index: -1;
         position: absolute;
         top: 1873px;
-    }   
+    } 
+
     .search-data-title {
         width: 200px;
         height: 50px;
         padding-top: 49px;
         margin-left: 262px;
     }
+
     .search-data-title h3 {
         margin-top: 0;
     }
+
     .search-data-description {
         max-width: 220px;
         margin-left: 262px;
     } 
+
     .search-data-description p {
         margin: 0;
         line-height: 26.6px;
     } 
+
     .search-data-bottom {
         margin-left: 262px;
         min-height: 160px;
         display:flex;
     }
+
     .arrow-right {
         margin-top: 16px;
         margin-left: 34px;
@@ -383,55 +334,66 @@ li {
         width: 531px;
         height: 358px;
         margin-bottom: 50px;
-    }    
+    }   
+
     .hours-access-image {
         z-index: -1;
         position: absolute;
         top: 1873px;
-    }   
+    }  
+
     .hours-access-title {
         width: 200px;
         height: 50px;
         padding-top: 49px;
         margin-left: 262px;
     }
+
     .hours-access-title h3 {
         margin-top: 0;
     }
+
     .hours-access-description {
         max-width: 220px;
         margin-left: 262px;
     } 
+
     .hours-access-description p {
         margin: 0;
         line-height: 26.6px;
     } 
+
     .hours-access-bottom {
         margin-left: 262px;
         min-height: 160px;
         display:flex;
         
     }
+
     .arrow-right {
         margin-top: 16px;
         margin-left: 34px;
     }
+
     .print {
         width: 531px;
         height: 358px;
         margin-bottom: 50px;
-    }    
+    }   
+
     .print-image {
         z-index: -1;
         position: absolute;
         top: 2281px;
     }   
+
     .print-title {
         width: 200px;
         height: 50px;
         padding-top: 49px;
         margin-left: 262px;
     }
+
     .print-title h3 {
         margin-top: 0;
     }
@@ -439,52 +401,63 @@ li {
         max-width: 220px;
         margin-left: 262px;
     } 
+
     .print-description p {
         margin: 0;
         line-height: 26.6px;
     } 
+
     .print-bottom {
         margin-left: 262px;
         min-height: 160px;
         display:flex;
         align-items: center;
     }
+
     .arrow-right {
         margin-top: 16px;
         margin-left: 34px;
     }
+
     .security-code {
         width: 531px;
         height: 358px;
         margin-bottom: 50px;
-    }    
+    }  
+
     .security-code-image {
         z-index: -1;
         position: absolute;
         top: 2281px;
     }   
+
     .security-code-title {
         width: 200px;
         height: 50px;
         padding-top: 49px;
         margin-left: 262px;
     }
+
     .security-code-title h3 {
         margin-top: 0;
     }
+
     .security-code-description {
         max-width: 220px;
         margin-left: 262px;
     } 
+
     .security-code-description p {
         margin: 0;
         line-height: 26.6px;
     } 
+
     .security-code-bottom {
         margin-left: 262px;
         min-height: 160px;
         display:flex;
     }
+
     .arrow-right {
         margin-top: 16px;
         margin-left: 34px;
@@ -506,15 +479,13 @@ li {
         left: 240px;
         height: 709px;
         width: 1118px;
-    }  
-   
-    
+    }
+
     .testimonials-title {
         margin-top: 110px;
         margin-bottom: 88px;
     }
- 
-  
+
     .cards {
         z-index: 2;
         position: relative;
@@ -535,13 +506,14 @@ li {
         width: 90px;
         height: 90px;
         position: absolute;
-
     }
+
     .jeny-doe-content {
         width: 645px;
         height: 330px;
         margin: 8px;
     }
+
     .william-content {
         width: 645px;
         height: 330px;
@@ -551,24 +523,49 @@ li {
     .john-fang-description {
         color:#4b5d68;
     }
+
     .john-fang-title {
         margin-left: 190px;
         margin-top: 80px;        
     }
+
     .john-fang-job {
         margin-left: 190px;
     }
+
     .john-fang-description {
         margin-left: 190px;
         width: 385px;
         min-height: 130px;
     }
+
     .john-fang-description p {
         line-height: 32.5px;
     }
+
     .icons {
         margin-top: 60px;
     }
+
+    .icon-left {
+        color:white;
+        border: 1px solid white;
+        background-color: white;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    .active {
+        border: 1px solid #f063b8;
+        background-color: #f063b8;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 10px;
+    }
+
     .arr-left {
         float: left;
         margin-left: 760px;
@@ -597,6 +594,11 @@ li {
     .social-title h5 {
         margin: 0;
     }
+
+    .btn-social {
+        display: flex;
+    }
+    
     .social-link {
         color:#e9e9ee;
         border:2px solid #e9e9ee;
@@ -607,7 +609,8 @@ li {
         border-radius: 50px;
         text-align:center;
         justify-content: end;
-        align-items: center;   
+        align-items: center;
+        margin-right: 50px;   
     }    
 
     address {
@@ -684,15 +687,5 @@ li {
         text-align:center;
         justify-content: end;
         align-items: center;   
-    }    
-
-   
-    
-
-    
-
-
-
-
-
+    }
 }
