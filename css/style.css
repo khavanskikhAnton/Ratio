@@ -472,6 +472,10 @@ h5 {
         margin-right: 50px;   
     }    
 
+    .social-link img {
+        margin-top: 15px;
+    }
+
     address {
         margin-top: 60px;
         position:static;
@@ -484,13 +488,11 @@ h5 {
 
 @media screen and (min-width: 320px)  and (max-width: 789px) {
 
-    body {
+    contaner {
         margin: 0 auto;
-        min-width: 250px;
         text-align: center;
     }
 
-    
     .logo {
         text-align: center;
         padding-bottom: 50px;
@@ -499,8 +501,24 @@ h5 {
     li {
         text-align: center;
         padding-top: 50px;
+        list-style: none;
     }
-    .intro-image img {
+
+    .btn {
+        border:1px solid #9c69e2;
+        background-color: #9c69e2;
+        border-radius: 60px;
+        text-align: center;
+        width: 100%;
+        line-height: 60px;
+    }
+
+    h1,h2,h3,h5, p {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .intro-image {
         width: 100%;
     }
     .about-image img {
@@ -512,9 +530,7 @@ h5 {
     .hours-access-image img {
         width: 100%;
     }
-    .print-image {
-        width: 100%;
-    }
+    
     .security-code-image img {
         width: 100%;
     }
@@ -529,11 +545,12 @@ h5 {
         width: 100%;
         display: none;
     }
-    .intro-btn {
-        margin-bottom: 50px;
-    }
+    
     .active {
         display: none;
+    }
+    .btn-social {
+        text-align: center;
     }
     .social-link {
         color:#e9e9ee;
@@ -544,7 +561,14 @@ h5 {
         height: 50px;
         border-radius: 50px;
         text-align:center;
-        justify-content: end;
-        align-items: center;   
+        margin-top: 20px;
+        
+    }
+    .social-link img {
+        margin-top: 15px;
+    }
+
+    .item-bottom {
+        text-align: center;
     }
 }
