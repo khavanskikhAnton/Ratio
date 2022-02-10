@@ -224,16 +224,13 @@ h5 {
 
     .features-title {
         margin-bottom: 50px;
-    }
-
-    .features-title h2 {
-        margin: 0;
         text-align: center;
         line-height: 52px;
     }
 
     .features-description {
         height: 58px; 
+        margin-bottom: 100px;
     }
 
     .features-description p {
@@ -243,31 +240,30 @@ h5 {
         margin-left: auto;
         margin-right: auto;
         line-height: 29px;
-        margin-bottom: 100px;
     }
 
     .row {
         display: flex;
         justify-content: space-between;
-
+        height: 358px;
+        margin-bottom: 50px;
     }
 
     .features-item {
         width: 531px;
         height: 358px;
-        margin-bottom: 50px;
     }
 
     .search-data-image {
         z-index: -1;
         position: absolute;
-        top: 1873px;
+        top: 1820px;
     } 
 
     .features-item-title {
         width: 200px;
         height: 50px;
-        padding-top: 149px;
+        padding-top: 50px;
         margin-left: 262px;
     }
 
@@ -275,12 +271,12 @@ h5 {
         margin-top: 0;
     }
 
-    .search-data-description {
+    .features-item-description {
         max-width: 220px;
         margin-left: 262px;
     } 
 
-    .search-data-description p {
+    .features-item-description p {
         margin: 0;
         line-height: 26.6px;
     } 
@@ -296,30 +292,16 @@ h5 {
         margin-left: 34px;
     }
  
-
     .hours-access-image {
         z-index: -1;
         position: absolute;
-        top: 1873px;
+        top: 1820px;
     }  
-
-   
-
-    .hours-access-description {
-        max-width: 220px;
-        margin-left: 262px;
-    } 
-
-    .hours-access-description p {
-        margin: 0;
-        line-height: 26.6px;
-    } 
 
     .hours-access-bottom {
         margin-left: 262px;
         min-height: 160px;
         display:flex;
-        
     }
 
     .arrow-right {
@@ -330,20 +312,9 @@ h5 {
     .print-image {
         z-index: -1;
         position: absolute;
-        top: 2281px;
+        top: 2228px;
     }   
-
-    
-    .print-description {
-        max-width: 220px;
-        margin-left: 262px;
-    } 
-
-    .print-description p {
-        margin: 0;
-        line-height: 26.6px;
-    } 
-
+  
     .print-bottom {
         margin-left: 262px;
         min-height: 160px;
@@ -351,38 +322,18 @@ h5 {
         align-items: center;
     }
 
-    .arrow-right {
-        margin-top: 16px;
-        margin-left: 34px;
-    }
-
     .security-code-image {
         z-index: -1;
         position: absolute;
-        top: 2281px;
+        top: 2228px;
     }   
-
-    .security-code-description {
-        max-width: 220px;
-        margin-left: 262px;
-    } 
-
-    .security-code-description p {
-        margin: 0;
-        line-height: 26.6px;
-    } 
 
     .security-code-bottom {
         margin-left: 262px;
         min-height: 160px;
         display:flex;
     }
-
-    .arrow-right {
-        margin-top: 16px;
-        margin-left: 34px;
-    }
-
+   
     /*    testimonials    */
     
     .testimonials {
