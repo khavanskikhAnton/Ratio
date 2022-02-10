@@ -281,7 +281,7 @@ h5 {
         line-height: 26.6px;
     } 
 
-    .search-data-bottom {
+    .item-bottom {
         margin-left: 262px;
         min-height: 160px;
         display:flex;
@@ -298,12 +298,6 @@ h5 {
         top: 1820px;
     }  
 
-    .hours-access-bottom {
-        margin-left: 262px;
-        min-height: 160px;
-        display:flex;
-    }
-
     .arrow-right {
         margin-top: 16px;
         margin-left: 34px;
@@ -315,24 +309,12 @@ h5 {
         top: 2228px;
     }   
   
-    .print-bottom {
-        margin-left: 262px;
-        min-height: 160px;
-        display:flex;
-        align-items: center;
-    }
-
     .security-code-image {
         z-index: -1;
         position: absolute;
         top: 2228px;
     }   
 
-    .security-code-bottom {
-        margin-left: 262px;
-        min-height: 160px;
-        display:flex;
-    }
    
     /*    testimonials    */
     
