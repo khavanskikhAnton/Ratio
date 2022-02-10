@@ -182,8 +182,9 @@ h5 {
         border-radius: 60px;
         text-align: center;
         width: 170px;
+        line-height: 60px;
     }
-
+    
     /*    about    */
     
     .about-container {
@@ -219,9 +220,30 @@ h5 {
     /*    features    */
 
     .features {
-        min-width: 1120px;
         margin-bottom: 150px;
-        margin-right: 240px;
+    }
+
+    .features-title {
+        margin-bottom: 50px;
+    }
+
+    .features-title h2 {
+        margin: 0;
+        text-align: center;
+        line-height: 52px;
+    }
+
+    .features-description {
+        height: 58px; 
+    }
+
+    .features-description p {
+        margin: 0;
+        text-align: center;
+        width: 584px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 29px;
     }
 
     .row {
@@ -230,35 +252,12 @@ h5 {
 
     }
 
-    .features-title {
-        
-        margin-bottom: 50px;
-        
-    }
-
-    .features-title h2 {
-        text-align: center;
-        line-height: 52px;
-    }
-
-    .features-description {
-        height: 58px; 
-        margin-bottom: 100px;        
-    }
-
-    .features-description p {
-        text-align: center;
-        width: 584px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     
-    .intro-btn {
-        max-width: 170px;
-        min-height: 60px;
-        text-align: center;
-        line-height: 60px;
-    }    
+
+
+    
+    
+    
 
     .features-items {
         width: 1120px;
