@@ -206,6 +206,7 @@ h5 {
     }
 
     .about-description {
+/*TODO: не используйте дробные пиксели, пиксель - это как точка*/
         line-height: 28.3px;
         max-width: 474px;
     }
@@ -234,6 +235,8 @@ h5 {
     }
 
     .features-description p {
+/*TODO: не перезаписывайте свойства в пределах одного блока, лучше вместо трех правил для margin заменить на:
+    margin: 0 auto; */
         margin: 0;
         text-align: center;
         width: 584px;
@@ -487,7 +490,7 @@ h5 {
 }
 
 @media screen and (min-width: 320px)  and (max-width: 789px) {
-
+/*TODO: опечатка, нет такого тэга как container, а класс - есть (забыли точку) */
     contaner {
         margin: 0 auto;
         text-align: center;
