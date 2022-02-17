@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "Ubuntu";
+	font-style: normal;
+	src: url("../fonts/ubuntu.woff2"), url("../fonts/ubuntu.woff");
+}
+
+body {
+	padding: 60px 0;
+	font-family: "Ubuntu", "Roboto", "Arial", sans-serif;
+	background: linear-gradient(to bottom, #f6fafd 0%, #ffffff 100%);
+}
+
+.main {
+	overflow: hidden;
+}
+
+ .container {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+
+ a {
+	color: #4B5D68;
+}
+
+a:hover {
+	font-weight: 800;
+	color: #212353;
+}
+
+.header__link {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 160%;
+	color: #4B5D68;
+}
+
+.intro__title {
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 110%;
+	color: #212353;
+}
+
+.intro__description {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 160%;
+	color: #4B5D68;
+}
+
+.intro__link {
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 160%;
+	color: #FFFFFF;
+}
+
+.about__title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 130%;
+	color: #212353;
+}
+
+.about__description {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 160%;
+	color: #4B5D68;
+}
+
+.features__title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 130%;
+	color: #212353;
+}
+
+.features__description {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 160%;
+	color: #4B5D68;
+}
+
+.item__title {
+	font-size: 24px;
+	line-height: 130%;
+	color: #212353;
+}
+
+.item__description {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 160%;
+	color: #4B5D68;
+}
+
+.item__link {
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 160%;
+	color: #212353;
+}
+
+.testimonials__title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 130%;
+	color: #FFFFFF;
+}
+
+.card__title {
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 160%;
+	color: #212353;
+}
+
+.card__subtitle {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 160%;
+	color: #9C69E2;
+}
+
+.card__description {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+	color: #4B5D68;
+}
+
+.footer__address {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 180%;
+	color: #212353;
+}
+
+.footer__email {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 180%;
+	letter-spacing: 0.01em;
+	color: #212353;
+}
+
+.footer__tel {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 180%;
+	letter-spacing: 0.01em;
+	color: #212353;
+}
+
+.footer__copyright {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 180%;
+	color: #212353;
+}
+
+.footer__social {
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 160%;
+	color: #212353;
+}
+
